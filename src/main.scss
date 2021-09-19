@@ -1,0 +1,24 @@
+$fontColor: inherit;
+$bgColor: Seashell;
+$borderRadius: .5rem;
+
+body {
+    color: $fontColor;
+    font-family: 'Public Sans', sans-serif;
+    background-color: $bgColor;
+}
+
+button {
+    appearance: none;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.img-example {
+    max-width: 600px;
+    border-radius: $borderRadius;
+}
